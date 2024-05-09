@@ -1,3 +1,7 @@
 [build]
-  command = "npm run start"
+  command = "npm i"
   publish = "public"
+
+[build]
+command = "npm run start"
+publish = "public"
