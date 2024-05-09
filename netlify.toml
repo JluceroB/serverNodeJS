@@ -1,7 +1,7 @@
-[build]
-  command = "npm i"
-  publish = "public"
+#[build]
+#  command = "npm i"
+#  publish = "public"
 
-[context.production]
+[dev]
   command = "npm run start"
-  publish = "public"
+  
