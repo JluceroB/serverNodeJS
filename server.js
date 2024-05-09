@@ -23,9 +23,7 @@ const requestListener = async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');//Allow requests from any origin
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');//Allow specific HTTP methods
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');//Allow Specific Headers
-    //if (req.url === '/') {
-     //   filePath = path.join(publicFolder, 'index.html');
-     //   sendFileContent(res, filePath, 'text/html');
+
      if (req.url === '/' || req.url === '/index.html') {
         filePath = path.join(publicFolder, 'index.html');
         sendFileContent(res, filePath, 'text/html');
