@@ -11,13 +11,13 @@
 <body>
   <header>
     <nav class="topnav" id="myTopnav">
-      <ul>
+    <ul>
         <li><a href="#about-me" class="active">About Me</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#awards">Awards</a></li>
         <li><a href="#contact">Contact Info</a></li>
         <li><a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a></li>
       </ul>
@@ -42,20 +42,53 @@
         <ul>
           <li>Bachelor of Science in Cybersecurity & Networks, May 2023</li>
           <li>Master of Science in Cybersecurity & Networks, December 2024</li>
+          <p><strong>Undergraduate Coursework</strong></p>
+          <ul>
+          <li>Intermediate Programming C/C++</li>
+          <li>Operating Systems</li>
+          <li>Intro to Cyber Forensic Science</li>
+          <li>Computer Organization</li>
+          <li>Ethical Hacking</li>
+          <li>Assembly Language</li>
+          <li>Small Scale Digital Forensics</li>
+          <li>Wireless Networking</li>
+          <li>Memory Forensics</li>
+        </ul>
+        <ul>
+          <p><strong>Graduate Coursework</strong></p>
+          <li>Reverse Engineering</li>
+          <li>Data Structures</li>
+          <li>Network Defense</li>
+          <li>Threat Hunting & Incident Response</li>
+        </ul>
         </ul>
       </section>
       <section class="skills" id="skills">
         <h2>Skills</h2>
-        <ul>
-          <li>Autopsy</li>
-          <li>Wireshark</li>
-          <li>ADB</li>
-          <li>Fiddler</li>
-          <li>Ghidra</li>
-          <li>Magnet Acquire</li>
-          <li>Wazuh</li>
-          <li>ELK Stack</li>
-        </ul>
+        
+          <li><b>Autopsy</b> - Autopsy was used heavily when I was conducting research for my first paper.
+            Full forensic images had to be taken of mobile devices and then injested into Autopsy in order to begin analyzing the data
+          </li>
+          <li><b>Wireshark</b> - Wireshark was first used heavily during many of my courses but most recently it was used in order to identify indicators of compriomse on
+            a network packet capture. By completing this excerise I was able to idently packets of interests with the help of Wireshark filters.
+          </li>
+          <li><b>ADB</b> - ABD was heavily used during my first research papar where a forensic analysis of two-factor authentication applications was analyzed.
+            Prior to using Autopsy we had used ADB to manually map out the directories of interest on an android device but also begin collecting artifacts during the beginning phases of analysis.
+          </li>
+          <li><b>Fiddler</b> - Fidder is a tool that was used during a research project when I was analyzing network traffic being sent from a mobile device. 
+            The traffic that was being collected over Wireshark was in HTTPS so we used Fiddler in order to decrypt the traffic.
+          </li>
+          <li><b>Ghidra</b> - Ghidra was used recently in my Reverse Engineering class where for our final project we were tasked with reverse engineering the WannaCry malware sample.
+          </li>
+          <li><b>Magnet Acquire</b> - Magnet Acquire was used on multiple occasionas both for class excerises and for research purposes to obtain both full and logical images of 
+            Android and Apple mobile devices. 
+          </li>
+          <li><b>Wazuh</b> - Wazuh is a tool I recently used during the Cyber Collegiate Defence Competition, where I utilized Wazuh
+            to set up agents on multiple machines and set up alerts for suspcious activity.  </li>
+          <li><b>ELK Stack</b> - Most recently, I utilized the ELK stack during a final project for my Network Defense class in order 
+            to parse through a large set of logs and identify important information. 
+          </li>
+      
       </section>
     </div>
 
@@ -97,10 +130,15 @@
       </ul>
     </section>
 
-    <div class="blogs-contact">
-      <section class="blogs" id="blogs">
-        <h2>Blogs</h2>
-        <p>This will be where I include information about any future blogs written by myself.</p>
+    <div class="awards-contact">
+      <section class="awards" id="awards">
+        <h2>Awards</h2>
+        <li><b>Honorable Mention Graduate Student Poster</b>, April 2024
+        WiCyS, Nashville, TN</li>
+        <li><b>Collegiate Cyber Defence Competition Regional Placement</b>, March 2024
+        Pace University, New York City, NY</li>
+        <li><b>Tip Three Best Paper</b>, July 2023, DRFWS USA, Baltimore, MD</li>
+        <li><b>First Place Undergraduate Student Poster</b>, March 2023, WiCyS, Denver, CO</li>
       </section>
       <section class="contact" id="contact">
         <h2>Contact Info</h2>

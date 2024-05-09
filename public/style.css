@@ -105,6 +105,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
+  
   .experience {
   display: grid;
   grid-template-columns: 1fr;
@@ -115,7 +116,7 @@
   background-color: #ffff; 
 }
   
-  .blogs-contact {
+  .awards-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -123,14 +124,17 @@
   
   /* Lists */
   ul {
-    list-style: none;
-    padding-left: 0;
+    padding-left:20px;
   }
-  li {
+  nav ul li {
+    list-style: none;
+  }
+  ul li {  
     margin-bottom: 20px;
-    list-style: none;
   }
-  
+  ul.education-list{
+    list-style-type: disc;
+  }
   li a {
     color: rgb(193, 156, 107);
     text-decoration: none;
