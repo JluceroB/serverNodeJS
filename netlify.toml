@@ -2,6 +2,6 @@
   command = "npm i"
   publish = "public"
 
-[build]
-command = "npm run start"
-publish = "public"
+[context.production]
+  command = "npm run start"
+  publish = "public"
