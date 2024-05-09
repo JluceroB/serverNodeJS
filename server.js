@@ -15,7 +15,7 @@ const client = new MongoClient(uri, {
 const dbName = 'CarDB';
 const collectionName = 'CarCollection'; 
 
-const publicFolder = path.join(__dirname, '../public');
+const publicFolder = path.join(__dirname, './public');
 
 const requestListener = async (req, res) => {
     let filePath;
